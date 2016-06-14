@@ -1,0 +1,48 @@
+l = ['alexandre','marisa']
+l
+l[0]
+l[1]
+l[0] = 'tayrine'
+l.count()
+l.append('ariadne')
+l.del(1)
+l.insert('barbara')
+l.remove('alexandre')
+
+t = ('alexandre','tayrine')
+t
+t[0]
+t[1]
+t[0] = 'marisa'
+
+>>> d = {'nome': 'alexandre', 'idade' : 23}
+>>> d
+>>> d[0]
+>>> d['nome']
+>>> d.keys()
+>>> d.values()
+>>> d.has_key('nome')
+>>> 'nome' in d
+>>> d['altura']=180
+
+>>> a = [3,7,3,9]
+>>> sorted(a)
+[3, 3, 7, 9]
+>>> a
+[3, 7, 3, 9]
+>>> a.sort()
+>>> a
+[3, 3, 7, 9]
+
+
+>>> d = {1:10,2:3,3:55,4:2}
+>>> d
+{1: 10, 2: 3, 3: 55, 4: 2}
+>>> sorted(d)
+[1, 2, 3, 4]
+
+>>> a.__getitem__(0)
+>>> d.__getitem__(1)
+10
+>>> sorted(d, key=d.__getitem__)
+[4, 2, 1, 3]
